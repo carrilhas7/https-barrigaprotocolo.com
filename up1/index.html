@@ -113,24 +113,20 @@
           <p class="lead">É um super presente do Dr. John, como um agradecimento por ter confiado no seu trabalho...</p>
           <p class="lead">Para adicionar este <span class="font-italic">Sistema Zero Flacidez</span> ao seu pedido hoje, basta clicar no botão abaixo agora mesmo...</p>
           <div id="cta">
+            
+            <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
-            <!-- CÓDIGO DA KIWIFY -->
-
-            <script type="text/javascript">
-  function importHotmart(){ 
-    var imported = document.createElement('script'); 
-    imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
-    document.head.appendChild(imported); 
-    var link = document.createElement('link'); 
-    link.rel = 'stylesheet'; 
-    link.type = 'text/css'; 
-    link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
-    document.head.appendChild(link);  } 
-  importHotmart(); 
- </script> 
- <a onclick="return false;" href="https://pay.hotmart.com/K72525409U?checkoutMode=2" class="hotmart-fb hotmart__button-checkout"><img src='https://static.hotmart.com/img/btn-buy-green.png'></a> 
-
-            <!-- CÓDIGO DA KIWIFY -->
+<script>
+opts = {
+key: 'USL-75485-207715-c5a5b7efff9180c4845d1ae38b49c179',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
 
           </div>
           <p class="lead">Com esse Sistema, o Dr. John já ajudou mulheres como a Ana...</p>
