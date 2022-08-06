@@ -80,23 +80,20 @@
           <p class="lead">Hoje, você pode adicionar o sistema Estrias Nunca Mais ao seu pedido, por apenas <span class="font-weight-bold text-success">147€</span>... ou <span class="font-weight-bold text-success"><span class="price"></span></span>...</p>
           <div id="cta">
             
-            <!-- CÓDIGO DA KIWIFY -->
+            <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
-            <script type="text/javascript">
-  function importHotmart(){ 
-    var imported = document.createElement('script'); 
-    imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
-    document.head.appendChild(imported); 
-    var link = document.createElement('link'); 
-    link.rel = 'stylesheet'; 
-    link.type = 'text/css'; 
-    link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
-    document.head.appendChild(link);  } 
-  importHotmart(); 
- </script> 
- <a onclick="return false;" href="https://pay.hotmart.com/R72529011N?checkoutMode=2" class="hotmart-fb hotmart__button-checkout"><img src='https://static.hotmart.com/img/btn-buy-green.png'></a> 
+<script>
+opts = {
+key: 'USL-75485-207780-717d55dfd007784ff71bc50cb3d36eaf',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
 
-            <!-- CÓDIGO DA KIWIFY -->
 
           </div>
           <p class="lead">Como será sua vida após eliminar as estrias e marcas do seu corpo?</p>
